@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Definindo o tipo de documento como HTML5 -->
+    <meta charset="UTF-8">
+    <!-- Configurando o viewport para responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Incluindo o arquivo de estilo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Título da página -->
+    <title>QUIZ</title>
+</head>
+
+<body>
+  <!-- Barra lateral de menu -->
+  <aside class="menulateral">
+    <nav>
+      <ul>
+        <!-- Link para voltar à página inicial -->
+        <li><a href='Home.html'>VOLTAR</a></li>
+        <!-- Contador atualizado pelo JavaScript -->
+        <div id="redBox">
+          <span class="spnQtd">1/5</span>
+        </div>
+      </ul>
+    </nav>
+  </aside>
+  
+  <!-- Conteúdo principal da página -->
+  <main>
+    <div class="content">
+      <!-- Título do quiz -->
+      <h2>COMPUTER SCIENCE QUIZ</h2>
+      <!-- Span para exibir o contador de perguntas -->
+      <span class="spnQtd"></span>
+      <!-- Span para exibir a pergunta atual -->
+      <span class="question"></span>
+      <!-- Div para exibir as respostas -->
+      <div class="answers"></div>
+    </div>
+    <!-- Div exibida ao finalizar o quiz -->
+    <div class="finish">
+      <!-- Span para exibir a mensagem de finalização -->
+      <span></span>
+      <!-- Botão para reiniciar o quiz -->
+      <button>Reiniciar</button>
+    </div>
+  </main>
+  
+  <!-- Incluindo
